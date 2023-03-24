@@ -1,0 +1,18 @@
+[package]
+name = "clerk"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-openai = "0.9.2"
+clap = { version = "4.1.8", features = ["derive"] }
+glob = "0.3.1"
+pdf-extract = "0.6.4"
+regex = "1.7.1"
+serde = "1.0.155"
+serde_json = "1.0.94"
+serde_yaml = "0.9.19"
+tokio = { version = "1.26.0", features = ["full"] }
+walkdir = "2.3.2"
