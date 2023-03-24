@@ -1,4 +1,4 @@
-# Clerk
+[#](#) Clerk
 
 ## Usecase
 
@@ -52,6 +52,9 @@ from the LLM
 * PDF
 
 ## Usage
+
+Currently clerk only supports the OpenAI GPT-4 model; you'll have to and
+to that model and an API key in the environment variable `OPENAI_API_KEY`
 
 ```
 Usage: clerk [OPTIONS]
